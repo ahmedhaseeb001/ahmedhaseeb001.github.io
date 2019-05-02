@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <style>
+
 body  {
   background-image: url("face 1.1.png"), url("color 1.jpg");
   background-size: cover, 150px 200px;
@@ -10,6 +12,7 @@ body  {
   padding: 60px, 20px;
   background-attachment: local, fixed;
 }
+
 .hvr-forward {
   display: inline-block;
   vertical-align: middle;
@@ -25,49 +28,101 @@ body  {
   font-weight: 500;
   font-size: 24px;
 }
+
 .hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
-  -webkit-transform: translateX(16px);
-  transform: translateX(16px);
+  -webkit-transform: translateX(20px);
+  transform: translateX(20px);
 }
-span {
+
+span.a {
   display: inline;
   width: 100px;
   height: 100px;
   padding: 15px;
   background-color: GreenYellow;
+}
+
+span.b {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  background-color: Tomato;
+}
+
+.hvr-backward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  font-family: proxima-soft-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: "right";
+}
+.hvr-backward:hover, .hvr-backward:focus, .hvr-backward:active {
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+}
+
+div{
+  text-align: right;
+}
+
+h1 {
+  font-family: Open Sans, sans-serif;
+  text-align: center;
+  font-weight: 500px;
+  color: TURQUOISE;
+  
+}
+
+
 </style>
 </head>
+
 <body>
+
 <h1>Ahmed's Profile</h1>
 
 <br><br><br><br>
 
-<p class="hvr-forward"><span>Name: Ahmed Haseeb</span></p>
+<p class="hvr-forward"><span class="a">Name: Ahmed Haseeb</span></p>
 
-<br><br><br><br>
+<br>
 
-<p class="hvr-forward"><span>DOB: 8th June 1999</span></p>
+<div><p class="hvr-backward"><span  class="b">PH: 0312-124xxx3</span></p></div>
 
-<br><br><br><br>
+<br>
 
-<p class="hvr-forward"><span>Student at Fast-NU</span></p>
+<p class="hvr-forward"><span class="a">DOB: 8th June 1999</span></p>
 
-<br><br><br><br>
+<br>
 
-<p class="hvr-forward"><span>Program: BSCS</span></p>
+<div><p class="hvr-backward"><span  class="b">ahmed.haseeb001@gmail.com</span></p></div>
 
-<br><br><br><br>
+<br>
+
+<p class="hvr-forward"><span class="a">Student at Fast-NU</span></p>
+
+<br>
+
+<div><p class="hvr-backward"><span  class="b">in.com/ahmedhaseeb</span></p></div>
+
+<br>
+
+<p class="hvr-forward"><span class="a">Program: BSCS</span></p>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-<p>Scroll Down</p>
-<p>Scroll Down</p>
-<p>Scroll Down</p>
-<p>Scroll Down</p>
-<p>Scroll Down</p>
-<p>Scroll Down</p>
-<p>Scroll Down</p>
-<p>Scroll Down</p>
-<p>Scroll Down</p>
 
 </body>
+
 </html>
